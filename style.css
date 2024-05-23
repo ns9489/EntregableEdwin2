@@ -1,0 +1,148 @@
+body {
+    width: auto;
+}
+
+.container {
+    background-image: url(images/banner-bk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: flex-end;
+    justify-content: flex-end;
+    color: #ffff;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.container button {
+    background-color: #4cc978;
+    color: #000000;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tittle {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+
+.text h2{
+    justify-content: flex-end;
+}
+.img2 button{
+    background-color: #4cc978;
+    color: #000000;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagenes {
+    background-color: #f3eeeece;
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+}
+
+.Form-container {
+    background-image: url(images/contact-bk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.social {
+    background-color: rgb(2, 2, 41);
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    color: #ffff;
+}
+.learn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(170deg,rgb(255, 255, 255),50%,rgba(52,211,153,1)50%);
+}
+
+.web-information {
+    margin: 5rem;
+    align-content: center;
+}
+
+.web-information > h2 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 0.8rem;
+}
+
+.web-information > p {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 3rem;
+}
+
+.web-information > a {
+    text-decoration: none;
+    color: white;
+    border: 1rem;
+    background-color: rgb(13, 13, 97);
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.information-inside > img{
+    height: 15rem;
+    padding-left: 7.5rem;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+
+.information-reliable > img {
+    height: 15rem;
+    margin-left: 5rem;
+    align-content: center;
+    margin-top: 2rem;
+}
